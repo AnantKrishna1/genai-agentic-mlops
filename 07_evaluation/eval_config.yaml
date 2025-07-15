@@ -1,0 +1,8 @@
+eval_questions:
+  - question: "What is the main goal of the document?"
+    ideal_answer: "Testing the ingestion pipeline in an agentic AI + MLOps project."
+
+  - question: "What steps are included in the pipeline?"
+    ideal_answer: "Ingestion, Embedding, Retrieval, Query, and Agentic interaction."
+
+llm_model: "mistral"

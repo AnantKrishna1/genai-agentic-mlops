@@ -1,0 +1,7 @@
+mlflow
+pandas
+scikit-learn
+langchain
+langchain-community
+langchain-core
+langchainhub

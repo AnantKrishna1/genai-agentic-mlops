@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/aksha/genai-agentic-mlops/06_monitoring_mlflow/mlruns/0/397809fe9b1844c58b1ffdbc1b1ecb9f/artifacts
+end_time: 1752519875677
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 397809fe9b1844c58b1ffdbc1b1ecb9f
+run_name: selective-crane-472
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752519840717
+status: 3
+tags: []
+user_id: aksha
