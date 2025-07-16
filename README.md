@@ -69,9 +69,9 @@ pip install -r 01_ingestion/requirements.txt
 # 4. Download and run an Ollama model (e.g. Mistral)
 ollama run mistral
 
-### Here are detailed steps:
+# Here are detailed steps:
 
-## 1 PDF Ingestion & Vector Store
+# 1 PDF Ingestion & Vector Store
 
 # Copy your PDF to the data/ folder
 cp sample.pdf 01_ingestion/data/
@@ -82,7 +82,7 @@ python ingest.py
 
 ✅ Output: Document is split, embedded with SentenceTransformer, and stored in ChromaDB under embeddings/.
 
-## Query with RAG
+# Query with RAG
 
 # Still in 01_ingestion/
 python query.py
@@ -91,13 +91,13 @@ python query.py
 
 What is the main purpose of the PDF?
 
-## Streamlit Chatbot UI
+# Streamlit Chatbot UI
 
 streamlit run ui.py
 
 ✅ An interactive chatbot powered by RAG + Ollama will launch in your browser.
 
-## Agentic Pipeline with LangGraph
+# Agentic Pipeline with LangGraph
 
 # Inside 02_agent_pipeline/
 python app/chatbot_agent.py
@@ -110,7 +110,7 @@ AgentTools (math, search, file reader)
 
 Conversational context handling
 
-## LLM Monitoring with MLflow
+# LLM Monitoring with MLflow
 
 # Inside 06_monitoring_mlflow/
 python track_run.py
@@ -127,7 +127,7 @@ Accuracy
 
 🔍 View MLflow UI: mlflow ui
 
-## Evaluation & Benchmarking
+# Evaluation & Benchmarking
 
 # Inside 07_evaluation/
 python evaluate_rag.py
@@ -140,7 +140,7 @@ Latency tracking
 
 Pass/Fail based on a custom YAML test set
 
-## Docker Deployment
+# Docker Deployment
 Dockerfile handles Ollama setup + Streamlit UI.
 
 # Optional: Run Ollama container (Mistral)
